@@ -19,7 +19,7 @@ body {
 
 }
 
-div#form{
+div#cont{
     width: 500px;
     height: 90vh;
     margin: 60px auto 0px auto;
@@ -63,6 +63,25 @@ label {
 .btn {
   margin-top: -10px;
 }
+
+.footer {
+  position: flex;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(255,255,255,0.15);
+  color: white;
+  margin-top: 20px;
+}
+
+a {
+    font-size: 16pt;
+    color: #d13775;
+}
+
+a:hover {
+    color: #fff;
+}
+
 
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #fff;
